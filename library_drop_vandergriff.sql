@@ -1,0 +1,37 @@
+drop table checkout;
+drop table waitlist;
+drop table review;
+drop table book_category;
+drop table copy;
+drop table book_author;
+drop table book;
+drop table branch;
+drop table patron;
+drop table reviewer;
+drop table category;
+drop table author;
+drop table publisher;
+drop table library;
+
+drop sequence lib_seq;
+drop sequence pub_seq;
+drop sequence auth_seq;
+drop sequence cat_seq;
+drop sequence revr_seq;
+drop sequence pat_seq;
+drop sequence branch_seq;
+drop sequence book_seq;
+drop sequence copy_seq;
+drop sequence rev_seq;
+drop sequence chkout_seq;
+
+drop view AllPatronNames;
+drop view AllLivingAuthors;
+drop view AllBooksByPublisher;
+drop view BooksByLibrary;
+drop view BooksByBranch;
+drop view TotalFeesByLibrary;
+drop view CurrentCheckOutByPatron;
+drop view AllCheckOutByPatron;
+drop view BooksByCategory;
+drop view CategoriesByBook;
